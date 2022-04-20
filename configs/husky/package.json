@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "type-check": "bash -c tsc -p tsconfig.json --noEmit",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|tsx)\"",
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|tsx)\" --write",
+    "postinstall": "husky install",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "./*.{ts,tsx}": [
+      "npm type-check",
+      "npm lint --fix",
+      "npm format"
+    ]
+  }
+}
