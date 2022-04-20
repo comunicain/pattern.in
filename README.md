@@ -12,4 +12,4 @@
 
 ## 👏 How to Contribute
 
-[You can only contribute if you follow all project standards. Look here!](https://github.com/comunicain/pattern.in/blob/dev/CONTRIBUTING.md)
+[You can only contribute if you follow all project standards. Look here!](https://github.com/comunicain/pattern.in/blob/master/CONTRIBUTING.md)
